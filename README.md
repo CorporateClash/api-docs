@@ -5,5 +5,5 @@ Documentation for the Corporate Clash APIs
 
 To report issues not related to security, or to report issues with the API docs, feel free to make an issue.
 
-To report a security issue, email [security@corporateclash.net](security@corporateclash.net).
+To report a security issue, email [security@corporateclash.net](mailto:security@corporateclash.net).
 
