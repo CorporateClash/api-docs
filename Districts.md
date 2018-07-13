@@ -14,7 +14,9 @@ Note that data returned may be delayed by up to 20 seconds due to cloudflare's s
 
 
 ```json
-		"name": "Feather Field",
+[
+        {
+	        "name": "Feather Field",
 		"online": true,
 		"population": 38,
 		"invasion_online": false,
