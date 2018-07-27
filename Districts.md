@@ -20,13 +20,13 @@ returns a JSON array of district objects
 |--|--|--|
 |`name`|string|District Name|
 |`online`|boolean|Generally always true. Districts are removed if they don't report their status after a few minutes.|
-|`population`|int|District population|
-|`invaison_online`|boolean|True if invasion is in district|
-|`last_update`|int|Unix time for last updated. Propably UTC.|
-|`cogs_attacking`|string|Cog attacting name. A list of cog names will be added here in the future.|
-|`count_defeated`|int|Amount of cogs defeated in the district|
+|`population`|int|District population.|
+|`invasion_online`|boolean|True if invasion is present in district.|
+|`last_update`|int|Unix time for last updated. Probably UTC.|
+|`cogs_attacking`|string|Cog attacking name. A list of cog names will be added here in the future.|
+|`count_defeated`|int|Amount of cogs defeated in the district.|
 |`count_total`|int|Total amount of cogs allocated to the invasion.|
-|`remaining_time`|int|Amount of time before invasion automatically ends, in seconds|
+|`remaining_time`|int|Amount of time before invasion automatically ends, in seconds.|
 
 If you encounter issues with the data, create an issue on this github repo.
 
