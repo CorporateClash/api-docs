@@ -7,7 +7,7 @@ Endpoint
     https://corporateclash.net/api/v1/districts
 
 
-Note that data returned may be delayed by up to 30 seconds due to cloudflare's short-lived 15 second cache plus any delays with districts polling their status.
+Note that data returned may be delayed by up to 30 seconds due to the Cloudfront cache as well as any delays with districts polling their status.
 
 
 #### Response
