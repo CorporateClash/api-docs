@@ -4,10 +4,11 @@ Districts can get the current population of the game (via adding the population 
 
 Endpoint
 
-    https://corporateclash.net/api/v1/districts
+    https://corporateclash.net/api/v1/districts.js
 
+The `.js` extension is only so that we may use the Cloudflare cache, and the data returned is not javascript ([why?](https://support.cloudflare.com/hc/en-us/articles/200172516-Which-file-extensions-does-Cloudflare-cache-for-static-content-)).
 
-Note that data returned may be delayed by up to 30 seconds due to the Cloudfront cache as well as any delays with districts polling their status.
+Note that data returned may be delayed by up to 20 seconds due to the Cloudflare cache and the delay of districts polling their status.
 
 
 #### Response
