@@ -25,10 +25,6 @@ To prevent this from happening, be sure to:
 
 If you have a specific use case and would like to partner with us to remove the rate limit and be whitelisted in Cloudflare, send an email to `support`@corporateclash.net including information about your application, you, and why you need the rate limit removed. 
 
-### OAuth info
-
-We plan to impliment OAuth2 sometime in the future, however we do not have a date for when this will be available. To receive credentials, you will need to apply to to our support email `support`@corporateclash.net. Include any relevant information, such as your application name, purpose, Github, and what scopes you intend to access (TBD). We may require you sign a contact in order to use certain scopes to prevent abuse of our systems.
-
 
 ### Reporting Issues
 
