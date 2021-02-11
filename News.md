@@ -1,8 +1,8 @@
 ## News
 
-News can get current articles published on our website.
+Gets the most recent articles published on our website.
 
-#### All Articles
+#### Articles
 
 Endpoint
 

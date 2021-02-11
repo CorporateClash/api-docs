@@ -1,8 +1,9 @@
-Note that all of our APIs prefer JSON input and will always respond with JSON output.
-
 ## Login API
 
+
 The login api is used to log players into the game via the official launcher or a third-party launcher. Note that while this API may work with unofficial launchers, we cannot guarantee that it will be not be changed without warning.
+
+This is version 1 of the API and does not support the Launcher token authentication system. This might be documented in the future, but for now this API should continue to work.
 
 #### Request
 
@@ -13,8 +14,6 @@ Endpoint:
 |Params|Description|
 |--|--|
 |`password`|The user's password.|
-|`2fa`|(future use) The user's 2fa token, either via totp or an email-based token (max length 8)|
-
 
 #### Response
 
@@ -36,8 +35,6 @@ Endpoint:
 
 #### Post-Success Login
 
-Note that the requirements for launching the game may be changed or may expanded beyond what is described here.
-
 When a user successfully authenticates and `status` is true, the game needs to start up. This is done via environment variables set in a process-specific context.
 
 Required env vars:
@@ -45,4 +42,4 @@ Required env vars:
 * `TT_GAMESERVER`: set to `gs.corporateclash.net`
 * `TT_PLAYCOOKIE`: set to the `token` variable from above
 
-These must be set in the game/launcher process before/during startup, see the [Altis launcher example](https://github.com/ProAltis/Launcher/blob/master/ProjectAltisLauncher/Core/Play.cs#L89-L91).
+These must be set in the game/launcher process before starting it.

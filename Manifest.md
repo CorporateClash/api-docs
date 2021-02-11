@@ -1,3 +1,3 @@
 ## Manifest API
 
-Docs for the manifest API are TBD, as we are constantly performing breaking changes.
+Our file mainfest API will remain private as we are constantly making changes to it.
